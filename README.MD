@@ -1,4 +1,4 @@
-# Simple Alarm Clock
+# Alarm Clock
 
 This is a simple alarm clock application built using JavaScript and HTML/CSS.
 
