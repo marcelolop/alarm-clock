@@ -1,14 +1,14 @@
 {
   "name": "alarm-clock",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Alarm clock using Javascript and HTML/CSS",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [ "alarm", "clock" , "JavasScript", "HTML", "CSS" ],
+  "author": "Marcelo Lopes",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.6.1"
