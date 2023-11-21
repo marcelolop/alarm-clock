@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/reset.css" />
+    <link rel="stylesheet" href="./assets/style/index.css" />
+    <script src="./assets/script/app.js" type="module"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <title>Alarm clock</title>
+  </head>
+  <body>
+    <main>
+      <div class="container flex">
+        <div class="hour-alarm-display flex">
+          <p class="hour-alarm"></p>
+          <div class="alarm-set-display flex">
+            <i class="fas fa-bell"></i>
+            <p class="alarm-set"></p>
+          </div>
+        </div>
+        <div class="alarm-buttons flex">
+          <input
+            title="set-alarm-hour"
+            type="text"
+            class="set-alarm-hour"
+            placeholder="HH"
+          />
+          <input
+            title="set-alarm-minute"
+            type="text"
+            class="set-alarm-minute"
+            placeholder="MM"
+          />
+          <button type="button" title="set-alarm-btn" class="set-alarm-btn">
+            Set Alarm
+          </button>
+        </div>
+        <div class="alarm-message-container">
+          <p class="alarm-message"></p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

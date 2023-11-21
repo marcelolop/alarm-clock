@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+body{
+    background-color: #202020;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.container{
+    width: 100%;
+    height: 100dvh;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alarm-message-container {
+    margin: 3rem 0;
+    gap: 1rem;
+    width: auto;
+    height: auto;
+}
+
+.hour-alarm-display{
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.hour-alarm{
+    color: #fff;
+    font-size: 15rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.alarm-set-display {
+    gap: 1rem;
+}
+
+.alarm-set-display i {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.alarm-set{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.alarm-buttons {
+    gap: 1rem;
+}
+
+.set-alarm-hour, .set-alarm-minute {
+    width: 10rem;
+    height: 5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #555555;
+    text-align: center;
+    color: #fff;
+}
+
+.set-alarm-hour:focus, .set-alarm-minute:focus {
+    background-color: #333333;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    outline: #008000 solid 1px;
+}
+
+.set-alarm-hour::placeholder, .set-alarm-minute::placeholder {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.set-alarm-btn {
+    width: 15rem;
+    height: 5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    background-color: #00cc00;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.set-alarm-btn:hover {
+    cursor: pointer;
+    background-color: #009900;
+}
+
+.alarm-message-container {
+    margin: 3rem 0;
+    gap: 1rem;
+    width: auto;
+    height: auto;
+}
+
+.alarm-message {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+.alarm-message-container p {
+    min-width: 200px;
+    min-height: 100px;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
